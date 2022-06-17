@@ -11,10 +11,10 @@ public class Main {
         };
         System.out.println("Anon class: " + math(f2, 3, 4, 7, 10));
 
-        Func1_1 f3 = Func1_1::staticMeth;      // статический метод
+        Func1_1 f3 = Func1_1::staticMeth;      
         System.out.println("Static method: "+ math(f3, 0.01, 2, 0.5, 4));
 
-        Func1 func4 = new Func1();    // ссылка на метод экземпляра
+        Func1 func4 = new Func1();  
         Func1_1 f4 = func4::xy;
         System.out.println("Method reference: " + math(f4, 1, 3, 1, 2));
 
