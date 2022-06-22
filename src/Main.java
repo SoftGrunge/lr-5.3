@@ -1,5 +1,5 @@
 public class Main {
-
+//@Efimov DA
     public static void main(String[] args) {
         Func1_1 f1 = new F11();
         System.out.println("Inner class: " + math(f1, 1, 3, 1, 3));
